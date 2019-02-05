@@ -1,0 +1,64 @@
+    .register{
+      margin-right: -15px!important; 
+    }
+    .register ul li a{
+      font-size: 14px;
+      color: #d3d3d3;
+      padding: 0;
+    }
+    .register ul li {
+      padding: 0 10px;
+    }
+    .register ul li a:hover, .register ul li a:focus {
+      background: none;
+      color: #429724
+    }
+    .carousel-inner{
+      height: 400px;
+    }
+    .carousel-caption{
+      height: 370px;    
+    }
+    .portfolio-thumb img{
+      height: 261px;
+    }
+    @media only screen and (max-width: 320px) {
+     .portfolio-thumb img{
+        height: 150px;
+      } 
+    }
+    @media only screen and (min-width: 321px) and (max-width: 360px) {
+     .portfolio-thumb img{
+        height: 165px;
+      } 
+    }
+    @media only screen and (min-width: 360px) and (max-width: 430px) {
+     .portfolio-thumb img{
+        height: 186px;
+      } 
+    }
+    @media only screen and (min-width: 431px) and (max-width: 495px) {
+     .portfolio-thumb img{
+        height: 225px;
+      } 
+    }
+    @media only screen and (min-width: 496px) and (max-width: 560px) {
+     .portfolio-thumb img{
+        height: 230px;
+      } 
+    }
+    @media only screen and (min-width: 580px) and (max-width: 768px) {
+     .portfolio-thumb img{
+        height: 250px;
+      } 
+    }
+
+    @media only screen and (max-width: 768px){
+      .carousel-inner{
+        height: 100%;
+      }
+      .carousel-caption{
+        height: auto;    
+      }
+       
+    }
